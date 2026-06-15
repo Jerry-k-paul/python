@@ -1,0 +1,15 @@
+What happens when you run a Python script?
+
+Step 1: 
+===================
+Compilation to Bytecode
+When you run a .py file, Python first compiles the entire script into an intermediate form called bytecode (a .pyc file).
+This step happens all at once, not line by line.
+It's not machine code, but a lower-level code that the Python interpreter understands.
+
+Step 2: 
+===================
+Execution by Python Virtual Machine (PVM)
+Now, the Python Virtual Machine (PVM) takes over.
+The bytecode is executed line by line, but this part happens during runtime.
+This is why Python is considered an interpreted language.
